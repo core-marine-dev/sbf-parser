@@ -12,6 +12,8 @@
     "url": "git+https://github.com/core-marine-dev/septentrio-parser.git"
   },
   "keywords": [
+    "coremarine",
+    "core-marine",
     "septentrio",
     "sbf",
     "gnss",
