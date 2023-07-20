@@ -1,0 +1,45 @@
+{
+  "name": "@coremarine/sbf-parser",
+  "version": "1.0.0",
+  "description": "It is a library to parse SBF data. SBF is a private binary protocol of Septentrio trademark which uses in its GNSS devices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/core-marine-dev/septentrio-parser.git"
+  },
+  "keywords": [
+    "septentrio",
+    "sbf",
+    "gnss",
+    "gps",
+    "binary",
+    "protocol"
+  ],
+  "author": "CoreMarine",
+  "license": "MIT",
+  "homepage": "https://github.com/core-marine-dev/septentrio-parser#readme",
+  "bugs": {
+    "url": "https://github.com/core-marine-dev/septentrio-parser/issues"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "tsc",
+    "start": "ts-node-dev ./src/index.ts"
+  },
+  "dependencies": {
+    "crc": "^4.3.2",
+    "gpstime": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
