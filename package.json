@@ -29,7 +29,7 @@
   },
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage",
+    "test:coverage": "jest --coverage",
     "build": "tsc",
     "start": "ts-node-dev ./src/index.ts"
   },
