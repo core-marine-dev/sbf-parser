@@ -30,6 +30,7 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "types": "mkdir node_modules/@types/gpstime && cp src/gpstime.d.ts node_modules/@types/gpstime/index.d.ts",
     "build": "tsc",
     "start": "ts-node-dev ./src/index.ts"
   },
