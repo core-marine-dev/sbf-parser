@@ -22,9 +22,6 @@ jobs:
           
       - name: 📥 Install Dependencies
         run: npm install
-    
-      - name: 🛠️ Build
-        run: npm run types && npm run build
 
       - name: 🧑‍🔬 Tests
         run: npm run test
@@ -55,6 +52,3 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        # uses: JS-DevTools/npm-publish@v1
-        # with:
-        #   token: ${{ secrets.NPM_TOKEN }}
