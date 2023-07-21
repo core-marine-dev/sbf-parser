@@ -1,6 +1,6 @@
 {
   "name": "@coremarine/sbf-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a library to parse SBF data. SBF is a private binary protocol of Septentrio trademark which uses in its GNSS devices",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
