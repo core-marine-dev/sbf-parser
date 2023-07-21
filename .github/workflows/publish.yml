@@ -51,6 +51,9 @@ jobs:
         run: mkdir node_modules/@types/gpstime && cp src/gpstime.d.ts node_modules/@types/gpstime/index.d.ts && npm run build
         
       - name: 🚀 Publish to npm
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # uses: JS-DevTools/npm-publish@v1
+        # with:
+        #   token: ${{ secrets.NPM_TOKEN }}
